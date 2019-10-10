@@ -30,6 +30,16 @@ public class Customer {
     String is_sms_sent;
     String flexcube_customerid;
 
+    public String getTest() {
+        return Test;
+    }
+
+    public void setTest(String test) {
+        Test = test;
+    }
+
+    String Test;
+
     public String getRecord_id() {
         return record_id;
     }
